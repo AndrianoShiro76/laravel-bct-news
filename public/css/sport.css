@@ -1,0 +1,281 @@
+
+/* --- SPORT BLADE --- */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* <---- LEFT SIDE ----> */
+/* Head Title */
+.artikel h2 {
+    text-align: justify;
+    color: rgb(68, 67, 67);
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+/* Author & Date */
+.artikel .icon-person {
+    display: flex;
+    margin: 0;
+}
+.artikel .bi-person-circle {
+    font-size: 45px;
+    color: rgb(68, 67, 67);
+}
+.artikel .icon-person .author {
+    color: rgb(68, 67, 67);
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 0 5px;
+}
+.artikel .icon-person .author-link {
+    text-decoration: none;
+    color:blue;
+    font-size: 15px;
+    font-weight: 500;
+}
+.artikel .icon-person .author-link:hover {
+    text-decoration: none;
+    color:rgb(240, 32, 32);
+    font-size: 15px;
+    font-weight: 500;
+}
+.artikel .icon-person .updated {
+    color: rgb(68, 67, 67);
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 0 0 5px;
+}
+
+
+/* Share to */
+.artikel .share {
+    display: flex;
+    margin: 3px 0 3px 0;
+}
+.artikel .share .text-share {
+    font-size: 16px;
+    font-weight: 400;
+    color:  rgb(68, 67, 67);
+    margin-right: 5px;
+}
+.artikel .share .bi-facebook {
+    margin: 0 5px 0 5px;
+    color: blue;
+    font-size: 30px; 
+    cursor: pointer;  
+}
+.artikel .share .bi-facebook:hover {
+    color: rgb(101, 101, 255);
+    cursor: pointer;  
+}
+.artikel .share .bi-whatsapp {
+    margin: 0 5px 0 5px;
+    color: green;
+    font-size: 30px; 
+    cursor: pointer;  
+}
+.artikel .share .bi-whatsapp:hover {
+    color: rgb(49, 189, 49);
+    cursor: pointer; 
+}
+
+/* Image Artikel */
+.artikel .img {
+    width: 700px;
+    height: 300px;
+    background-color: aquamarine;
+    position: relative;
+    margin-bottom: 20px;
+}
+.artikel .img .artikel-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Body News */
+.artikel .body-news {
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 0;
+}
+.artikel .body-iklan {
+    width: 200px;
+    height: auto;
+}
+.artikel .img-iklan {
+    max-width: 100%;
+    float: right;
+    margin: 20px 0 0 0;
+    display: block;
+}
+
+
+/* COMMENT */
+.comment form {
+    margin: 10px 0 12px 0;
+}
+
+.list-komentar {
+    display: flex;
+}
+.list-komentar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.list-komentar .isi-komentar {
+    margin: 0 0 5px 15px;
+}
+.list-komentar .isi-komentar h6 {
+    font-size: 18px;
+    margin: 0;
+}
+.list-komentar .isi-komentar p:nth-child(2) {
+    font-size: 15px;
+    margin: 1px 0 0 1px;
+}
+.list-komentar .isi-komentar p:nth-child(3) {
+    font-size: 12px;
+}
+
+
+
+
+/* <---- RIGHT SIDE ----> */
+
+/* ADVERTISMENT */
+.right-side .adv-1 .img-adv-1{
+    max-width: 100%;
+}
+
+/* NEWEST */
+.newest {
+    margin: 20px 0 20px 0;
+}
+.newest .title-newest {
+    color: brown;
+    padding: 5px 0 5px 0;
+    border-bottom: 5px solid brown;
+}
+
+/* Newest -- Jumbo */
+.newest-jumbo .img-newest {
+    background-color: aquamarine;
+    max-width: 100%;
+}
+.newest-jumbo h6 {
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+.newest-jumbo .title-link {
+    text-decoration: none;
+    text-align: justify;
+    color: rgb(68, 67, 67);
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.newest-jumbo .title-link:hover {
+    color: rgb(240, 32, 32);
+}
+.newest-jumbo .category-link {
+    text-decoration: none;
+    color: rgb(240, 32, 32);
+    font-size: 14px;
+    font-weight: 600;
+}
+.newest-jumbo p {
+    margin: 0 0 8px 0;
+    padding: 0;
+    color: rgb(114, 110, 110);
+    font-size: 14px;
+}
+
+
+/* Newest -- Small */
+.newest-small {
+    display: flex;
+    margin: 5px 0 10px 0;
+    max-width: 100%;
+}
+
+.newest-small .img-newest-small {
+    margin: 5px 0 5px 0;
+    max-width: 100px;
+    max-height: 80px;
+}
+
+.newest-small .text-newest-small {
+    margin: 2px 0 0 5px;
+    padding: 0;
+} 
+.newest-small .text-newest-small h6 {
+    margin-bottom: 0;
+}
+
+.newest-small .title-link {
+    text-decoration: none;
+    color: rgb(114, 110, 110);
+    font-size: 13px;
+    text-align: justify;
+    text-transform: capitalize;
+    display: block;
+}
+
+.newest-small .text-newest-small .category-link {
+    text-decoration: none;
+    color: rgb(240, 32, 32);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.newest-small .text-newest-small p {
+    margin-top: 0;
+    padding: 0;
+    color: rgb(114, 110, 110);
+    font-size: 12px;
+}
+
+
+/* CATEGORY */
+.category {
+    margin: 20px 0 20px 0;
+}
+
+.category .title-category {
+    color: brown;
+    padding: 5px 0 5px 0;
+    border-bottom: 5px solid brown;
+}
+
+.category .list-category {
+    margin: 5px 0 5px 0;
+    padding: 0;
+}
+.category .list-category .item-category {
+    max-width: 50%;
+    max-height: 100px;
+}
+.category .list-category .item-category .img-category{
+    max-width: 100%;
+    background-size: cover;
+}
+.category .list-category .item-category p{
+    max-width: 100%;
+    background-color: rgb(202, 67, 67);
+    text-align: center;
+}
+.category .list-category .item-category .category-link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+

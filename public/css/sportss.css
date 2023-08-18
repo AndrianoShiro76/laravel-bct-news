@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* <<<--- Navbar Category --->>> */
+.navbar-category {
+    background-color: rgb(67, 66, 66) ;
+}
+.navbar-category .category-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.navbar-category .category-link:hover {
+    color: rgb(239, 80, 80);
+}
+
+
+/* <<<--- Head News --->>> */
+.head-news h4{
+    text-transform: capitalize;
+    font-size: 22px;
+    text-align: justify;
+    margin: 0 0 0 0 ;
+}
+.head-news .head-title {
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+    margin-bottom: 0;
+}
+.head-news .head-title:hover {
+    color: rgb(240, 32, 32);
+}
+.head-news .head-author {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(122, 120, 120);
+    margin: 2px 0 2px 0;
+}
+.head-news .author {
+    color: rgb(240, 32, 32);
+    text-decoration: none;
+}
+.head-news .category {
+    color:  rgb(240, 32, 32);
+    text-decoration: none;
+}
+.head-news .head-excerpt {
+    font-size: 15px;
+    color: rgb(68, 67, 67);
+}
+.head-news-1 .img-jumbo {
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+.head-news-2 h6 {
+    text-align: justify;
+    margin: 0 0 0 10px;
+}
+
+.head-news-2 .head-news-2-title {
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+}
+.head-news-2 .head-news-2-title:hover {
+    color: rgb(240, 32, 32);
+}
+
+.head-news-2 .float-right {
+    max-height: 80px;
+}
+
+
+
+/* <<<--- Newest --->>> */
+.newest .newest-title {
+    color: brown;
+    padding: 5px 0 5px 0;
+    border-bottom: 5px solid brown;
+}
+
+.img-newest {
+    width: 210px;
+    height: 120px;
+    position: relative;
+}
+
+.newest-list {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.thumbnail-small .img-mini {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.newest-text {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.newest-text h5{
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.newest-text .news-title {
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+}
+.newest-text .news-title:hover {
+    color: rgb(240, 32, 32);
+}
+
+.newest-text .newest-author {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(122, 120, 120);
+    margin: 2px 0 2px 0;
+}
+.newest-text .author {
+    color: rgb(240, 32, 32);
+    text-decoration: none;
+}
+.newest-text .category {
+    color:  rgb(240, 32, 32);
+    text-decoration: none;
+}
+.newest-text .newest-excerpt {
+    font-size: 14px;
+    color: rgb(68, 67, 67);
+}
+
+/* EDUSPORTS */
+.edusports {
+    background-color:rgb(68, 67, 67);
+    margin-bottom: 20px;
+}
+.edusports .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+}
+.edusports .title {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.edusports .see-more {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.edusports .see-more a {
+    text-decoration: none;
+    color: white;
+}
+.edusports .list {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.edusports .list .card-news img{
+    position: relative;
+    width: 100%;
+    height: 170px;
+}
+.edusports .list .card-news .title-news {
+    text-decoration: none;
+    font-size: 18px;
+    color: snow;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.edusports .list .card-news .category{
+    text-decoration: none;
+    color: yellow;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* GALERY */
+.photo {
+    background-color:rgb(68, 67, 67);
+    margin-bottom: 20px;
+}
+.photo .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+}
+.photo .title {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.photo .see-more {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.photo .see-more a {
+    text-decoration: none;
+    color: white;
+}
+.photo .list {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.photo .list .card-photo img{
+    position: relative;
+    width: 100%;
+    height: 170px;
+}
+.photo .list .card-photo .title-photo {
+    text-decoration: none;
+    font-size: 18px;
+    color: snow;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.photo .list .card-photo .category{
+    text-decoration: none;
+    color: yellow;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
